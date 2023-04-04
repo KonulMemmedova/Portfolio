@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Konul Mammadova
+       </div>
+       <div class="text-three">Frontend developer</div>
+       <div class="text-four">From Azerbaijan</div>
+     </div>
+     <div class="button">
+       <button>Hire Me</button>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIVFRIVEhISEhgYEhgSEhISERIREhQSGBQZGRgYGRkcIS4lHB4rIRgYJjgmKy8xNTU1GiU7QDs0Py40NTEBDAwMEA8QHhISHjQhISs1NDQxNDE0NDQxNDQ0NDQ0NDE0NDExMTQ0NDQxNDE0NDQ0ND8/ND80PzQ0Pz80MTE0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAwQBAgYFB//EAEIQAAIBAgMDCAcGBAUFAQAAAAECAAMRBBIhMUFRBQYiYXGBkbETMmJyocHRI1KCorLwQmNzkhQzU8LhJDQ1Q4MH/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAJREBAQACAQQDAAEFAAAAAAAAAAECEQMSITEyBCJBURMjM3GR/9oADAMBAAIRAxEAPwD7NERAREQEREBERAREQEREBERAxMzEjZ5FolmJCHkoMSjaIiSEREBERAREQEREBERAREQEREBERARE1JtAzBMhZ5GXMraLGYTU1OEr5ozSOpG0hqmBVkN5QxXKlNDYA1G3hdg7TK9VTjjcvEeq9XhI808VOWW30xbqe5+ItL1DlGm/8WU/dfonxk21bLjyn4ugyRakgmZEulFpXjPK4eA8t1G1sGJW9JJFqSZUpomgabywREQEREBERAREQEREBERASOrskkiqmRfAgdpHeZJmJlagiJkSB4fLfKJB9Ehtpd2B1sRoo4aWJ7Z5StYTXGPerWJ/1G87DykDtJd/FjMcYsPW4SF6siLSNmhq9vkPlQhxTckq2iE7VbcOwzpp89vw7jwO6dnyNj/TJc+uvRcddtG7DDj5+Pp+0ehMGbTUyHOXmQZrMiIJVaWFkFNdZYmsIzERLJIiICIiAiIgIiICYJmZFVMijQ1Jq5kd55/LPKQw9POUZ7sEAU2sSCbk7hpwO4TO5Elt1F6J4fIHLwrkoVYOoJzdEqy91rHXhPclS43G6pAiZX5wOA5Rq5auIPGq1uvWwmjPaw8e2R48WrVAf4ajt35iB5mRqdvZrG3o4T6xMzzTNKz1raCbB9kja+lgNPT5CxOSsmuj2pv1g+qe5reJnjB5EcWUsw2owbwYH5SZVM8ZcbH1KYmSZiHmlomZsokwTJukokaSWaxJERJCIiAiIgIiICIiAkNaTTRxIvgUzMTZxNZlUK9LBU0d6irZ3ADtfaAOGwbJYiaVqmUXG0nKo4sdncNvdITu1s7qurEDfqbTxeV+W/RC6FCtrFrHMpIsLd8i5QrhVzBKlQsbU6anVlvYMx22JN+y08/DMaqrlZUJFypTMinNbdt10iXbfDjnmuex4xFUq6oXdnBBAIDHZ2WI29ssPdNHGU58jA7jbZ4z3K+Ipsjo9Uhlz+rZFQi6q1tw2ETxec9ZCKQzK1VWVqq0wxFrbervix0y6eebak7tSeoC8mQnIjHTNc/h3SorCq1hcIDd2+91Dqlqq97bgBYDhIabV61Yq0lwOGNarTQbHdVbiutyfAGVMeCQCNbaG3DdPQ5mq5xdG97AO504U2+ZERTO6xtfUCZh6gUFmIUAXJOgAmTKPK2HqVEyUygubPn2ldoAO6Wnnu81ep1FYBlIYEXBBuCJus8/kzAeiRQxzsLm+wKCb2A4Xue+XrybqXsVcSbSsj2kiveXliU0TAmZYIiICIiAiIgIiIGJhtkzMNAq1JHN32zSY1BNMmZmJ1AAAB3XGviLTeYw/wDEeLm3doPKQtj5UKiqXqBkDN0Ag2NcZiCDuAteeNisMGcej9ZQwVlc087bWFhsHZPb5QrBWCIAXc5RxC7WY9Q+kkq0KaKnQDFejTJF2zHffr2mMe91GvX0d/5c3TpJTqqgvTdUV8oCOlnuTdzrbd63dK/KdFzTLKmRLixIUM5Y+s2WxJ1tt3ToKeGW5Z1u19Swub/KQcvNehU95D+YTp/pSY7qn9e5ZSPnbYeqmlOpmFrhKii3WAy6jwmExbHRlNNvutqD1ht4luq+o6mI7iD8wJsACtiAR1+M59O6VUqO+mRQx6yQBPX5vU8ZTD4hDSyiyMGps9l23XUb7AmdBzf5JwtSijmndrlWBY5SQdtp0YprlyZQFtlygADLwtNceLc25eX5El6dKHI/LArdFlVHAuMpurDfbgerXtnqzhMZTfDV7KdhD0zxF9nhp3TuKFUOquNjKGHeNkyymrpnySTVnhvERIZsiWKI0lcSemZbHyLETAmZqkiIgIiICIiAiJgmBi8id5RxvKlNGK5lz5c1mJUWsd/dK+C5VFV6iKhCqLh7jpC9tm6+0SlyiLYvkzBiaVnYKSozHcO/b3be6U8jFaqF27SDlUAl2NtyiUqlWtlAVUp6fx3qPf3VIA7zLlNEAurFmb1m01tuPAdUjqKDYEgdpsJvjxY2d1euzw8rkcMKrO7tUZwVDMqghVueiB6o0OlzfSW8fXKuptfIL2O9j/xp3yTDUB6RnBDAKMp+8zAZj4D4yDDpnqMCdrFvwhtPKTMcert4RcrfKd2NgW27W7TraeJy1U+zqe+ifMz2MWdo67TwOXiBSp22tUdj2KLDymud+pxTeccpUa5v7Y/VabKdJCp6JPYfzmbI9xOOx6s87dnzIqFlqptswfuIt8p0t9bdV/OcZzFqf9Qyg+tTP5SPrOyfRyPZP6rfOdHFe2nm/IxkyeBzxpDJRqW1WpkJ9lhs8RL/ADZq5qCgn1GZPjcfAyvzva+HA/mKR26yHmdVutVfaV/FbfKZcvlpj34nSRECZM2QJPSEhBk1Iy2InEzMAzM1SREQEREBERATVjNpqwgeLyxyStfKb5CAVLAA3Uj5bYwHJtOjcoWN1VSWIOg3aeM9MrNHSY3HvtXU3tHERISjegCbglSdpU2v2jfKSpnNTUnKwykgEagbv3sl7EPZWPVp2nSaIgHwv4To4t1TJXqo+U3KhgNHS4YbhofKVeT79MncAgPG09XEVlsqga7gOG89QlIJlB4k3M2x/wBKXsr4hpznOA2VPdc+X1nQVz+/3+9ZzfOluig9lx+ZRHJ6tfj/AOSOfUdBupU/fxkdJtJMB0XHsrKtA7ZxvTnZ0fM97YlOtXHwneWJfTX7Mnvzi3lPn3NY2xNLtYflM+gCvldzwpi/UBmY+Ym3H6uH5Xu8DnhiLJTQb6hY9gFvMytzMf7Rxxp/EMPrPJ5z4vNiGS/qZKZ98r6Rvi1u6ehzNb7b/wCbfKZ8l3WmOOuLTt5mYmZm52JKhkdpIJME6tJJAsmmsSzERJCIiAiIgIiIGjLNG65LeQVmlahCRMTJmszohxfqge2v6pHiK9iAouxOl9gHEyXE+oTws3gZoaKmz7bnTXS26dHDZpTKNKSC7G5J0zE7TfUW4CRvcmw1mgezuPvKLdqsb/q+E1dyNRu17JvFFPEnVQdLuAeoAFj5TlucNTM1P2jcD2SdPgL986DHvc67LEt+LS3aQGHfOZ5VJavRB25c54erfw1mfN6tvi++1P8A1Pc+cp4faZaQ61v6Y85Uw20zlek6Dmqt8VS7WP5TOuxOKRBVq1CAiku5/lURdvFgqzjebRP+KpW+6/6ZU/8A0Tl8ZkwVFvumswP8K6on9xLH8Im2N1i4eedXJI8pcU1RzUf1nrNUYcCxJt3bO6ddzPf7detWHwP0nE4PQUuss063mo9sRT63K/leZV0WfTT6OJmYExUcKGYmwAux4AC5lY40qzZTPPwvKVNwCGKksVCsMrZhY2t2EGX0Ost4qJdpwJJMCZmixERAREQEREBMTMQIGJEhMtt2SqwlMoitIMyBBEoNbSo6FOtRsNico4Hq65ciTjlcaix4bklw1958CNflNxiSoOzUWsdSeyenVw6N6yjy8pRSggu4UAbE39Eb++dWHJ1dtMssenu8atSLHpbL3I+8dND1Tncc2bFsfu0/MCdRi36ZHADx1+k5NzfEYg8Ft4ARzerf4nvVGn61f+mPnK2G2mWcMeliPcUfCVMJtnK9CrS8oPQc1UXOyUnyjcCQBmPUJxuGDO7vUJZmJZ2bUljtM7nCUg72Ow02U9+n0nIpRyOy8GKnuM0m5i58tXOx6dLT0I9kn4zpebjWr0T/ADwPgfrOaPr0Rwpie/yE9qlM8K6n81vnKVtZ9X1e0r4+kzo6IQCy26Wy0sGJWXV3HBf4cdRwldamQZkYta4LBVQa3JG0b++djh0KqqlixChSzbWIAuT1mJvT2y95LlVMcZisqZvMCZl2hERAREQEREBERAwZG6ySDIsFRjNDJXEiMzyQxERKivin2INr7epB6x+XaRKuOeygDiFHZ+xJm1dyd1qY7ALse9jb8MpVgXqIg29JvAWnZxYyY7ZZd7p5ypnqMCbAsi34aD6znK6Ba+LANwpYX49K3ynTimc9QH7yg/2iclh3ucU3t28TeV5/EdHxPaqGFP8A3R9kD4SvhJLhDpij1/KR4QbZzu56eENnv7B85z3LFO1epbfZ+8j6z36HrD3T5yjy7hWD03IsrrYHjlfKfOb6+jkt/vWKNT/PQcKYnucgi70uusn6xPCvfEdiDynQ821vUw/XWT9d/lMHTfWvqpiYvMmVcJeZBms2AkxCzTMlkVKSzWJIiJIREQEREBERAxMFhMmV3Mi3QzVbhPLfEXyi7EujAKvRAqIubKRtzEX7ll9jIHw6lrkX6QcdTBSmYdeUkTHOW+Ebbo11U3vdQb8dIdwoLHYASewC58pkC1gNANBbhIcWRlsdjMqn3b3PwBk4zeoiqq3Ci+3ae06n4yhWbLUJDahALjcWIvPQrW1tsnl2vmPFh4ZwPlO/TLfds2jVCeCt4KfpOHwR+yqt96sfhOyx1W3pOqn/ALW+s4vC6YZPaZmPjMef8jr+J+1SwZ6GI62jBjbNMF6lTrc+cmwQ29k53YupoR7p85rypVZ1pKTcIzFeIvlY9uyb1BbL2GR1hcL79vFSJ0yb43Dndc7xqf8An1DwBHgJ0PNlftcN/VXznP4bV6p97znSc2B9rhv6inznNXZl619PAm0ixFcIpLddlG1juAlfC4sm/pCu62UHQndqTftjTimNs2vqslyibqom2US0x7KtUEkiJdJERAREQEREBERASvUEnmCLyLBTMGbOs0Mys0hgynj31pj3m8AB8zLk8zHt0+xQPMnzmnFN5K5XsO+hlTJ0P7L/AN1/nN6rdE9Y89JvUqkJlGy4J7rfSdlZfvd5HKt8lZrG2XbbTZxnKZbUKQ/l38Z2XLOMX/CYhLZSKbNf7xA0E4/EGyovBAO+c3Ne7v8AiyTG2POwC/Z1D7R85PgxtmmHFqTdbj9UmwY2zF0rdYeqOozXG4Z6ZKVBZgUa176Eg+Rm2I/h7PnIcdiXcVGdszBbdyoLTqwn008/lsnN/wAeRghpUPEHznT81l+2w3v38EYznMMtkf3ROh5qV7YhBa+QafwrdkPrNuG0k8BOau3K6xr6U9JWFiL8OPcd03w2HRdFQC+3TU9pnk0OWkcIyq6XcXzKCGVRd8pGptddoG3qNpMTy2iZls98rWcBSAQt72vc/wDERw7r3wJtOfqctgehFnBYgFWCjMWU5SWBsq779XGe8D+9s0S2iIgIiICIiAiIgIiICIiBAy7ZA0tVJVaUyQ1nkVHVmf73pGF/ZFgJ64ngYZrknizHxYy/DN2qZXsuY5U6Cra+1iJElVQWzC4ykd+6aO2plaoSL3BHaLTqkZ2/rxeXmvTK/edR3A5j5Tw8Q3lPa5Yw9R1Bp5SQG6DG172vbr0nJ4hKyn7VKiX0GdCqXHA7D3Gc3NL1O74uWPTrfdPmtT/GPgZcw2GcKGNhcXsQbgdcjwnJ1RlplguQsHIvrbba09yhQ9IXGZVyoX6Ww23CTx8f7Vefns1Ma8vK7uEAubWUKNTrIcRTZfSqylTYixFjfJpJ6dVlfOhKsACp3g6xVqu7VHqEsxO09QE31qajkuVyu75b4XmzjGW3oGW4GrlVA7Z13N7m0KBL1RTdyuXKFBVRcHUnadJ0jbTMCcFrpvLllNIkwyAsQq3ZixJVb3IsR2fU8ZuMLTIy5Fy7LBVGnDsm4EnpSZ5Ua08HTAsKdMDW4CKBrt8RJ1UDQAAbgNBNhMzVJERAREQEREBERAREQERECOpKrREpkhqZzuC+Z8zETTg/WWaYbe8ect8t+osROn9is9a8Jd3ZL3L/AP4+p/T/AN0RMuVf4/lzGF/y6fuL5TUbfwnyiJfHwpl7KC+seweUkp/+ztPlES34rPL6qZgRE8+umNhJUiJMFgTMRNUkREBERAREQP/Z" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Designing Is My Passion</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, porro veritatis pariatur, nobis voluptatem ipsum repellat nemo quisquam error reprehenderit recusandae odio vel, suscipit. Voluptas mollitia accusantium quaerat aspernatur labore dolorum placeat ipsa sint nam perspiciatis eos consectetur veritatis debitis, quis aliquam unde sed maiores sit! Hic molestiae optio iste iure earum amet nostrum quaerat facere quae veniam maiores harum iusto aperiam vel inventore illo voluptatibus voluptates quo impedit voluptatum error vitae, omnis praesentium? Aperiam nulla non, nesciunt fuga rem perferendis alias et, temporibus, distinctio culpa unde a laborum libero ducimus. Facilis veniam sit praesentium, voluptatibus sint maxime iusto eaque.</p>
+      <div class="button">
+        <button>Download CV</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
+       <div class="experience">
+         <div class="num">2</div>
+         <div class="exp">Years Of <br> Experience</div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">90%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">JavScript</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Bootstrap</div>
+         <div class="per">60%</div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Services</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Web Devlopment</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-paint-brush"></i>
+       </div>
+       <div class="topic">Graphic Design</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-chart-line"></i>
+       </div>
+       <div class="topic">Digital Marketing</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div class="topic">Icon Design</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-camera-retro"></i>
+       </div>
+       <div class="topic">Photography</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic">Apps Devlopment</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+     </div>
+   </div>
+   </div>
+ </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Project?</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+      <div class="button">
+        <button>Let's Chat</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
